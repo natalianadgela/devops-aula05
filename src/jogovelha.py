@@ -1,9 +1,11 @@
 def inicializar():
 	tab= []
+	for j in range(3):
 		linha =[]
 		for j in range(3):
 			linhas.append(".")
-		return tab
+		tab.append(linha)
+	return tab
 
 def mais ():
 	jogo = inicializador()
